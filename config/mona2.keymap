@@ -28,11 +28,6 @@
             bindings = <&kp DEL>;
             key-positions = <39 21>;
         };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
     };
 
     macros {
