@@ -304,5 +304,3 @@ layers:
 combos:
 - p: [39, 21]
   k: DEL
-- p: [11, 12]
-  k: TAB
