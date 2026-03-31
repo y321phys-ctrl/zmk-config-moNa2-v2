@@ -37,12 +37,12 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: '4'}
+  - {t: LANG2, h: '5'}
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '1'}
-  - {t: ESC, h: '5'}
+  - ESC
   '1':
   - {t: ▽, type: trans}
   - ''''
@@ -212,7 +212,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -252,12 +252,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '&to_layer_0 ESCAPE', type: held}
+  - '&to_layer_0 ESCAPE'
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,3 +304,5 @@ layers:
 combos:
 - p: [39, 21]
   k: DEL
+- p: [39, 36]
+  k: {t: ESC, h: '4'}
