@@ -28,6 +28,11 @@
             bindings = <&kp DEL>;
             key-positions = <39 21>;
         };
+
+        Layer4_ESC {
+            bindings = <&lt 4 ESC>;
+            key-positions = <39 36>;
+        };
     };
 
     macros {
@@ -74,7 +79,7 @@
 &kp Q             &kp W         &kp E         &kp R        &kp T                                                 &kp Y        &kp U  &kp I      &kp O    &lt 6 P
 &kp A             &kp S         &kp D         &kp F        &kp G                                  &kp TILDE      &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp TAB                   &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1    &kp BACKSPACE  &lt 1 ENTER                             &lt 5 ESC
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1    &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
             >;
 
             sensor-bindings = <&scroll_up_down>;
