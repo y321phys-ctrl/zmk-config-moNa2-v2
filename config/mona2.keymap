@@ -31,7 +31,7 @@
 
         Layer4_ESC {
             bindings = <&lt 4 ESC>;
-            key-positions = <39 36>;
+            key-positions = <26 27>;
         };
     };
 
@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&trans  &kp N7  &kp N8      &kp N9  &kp MINUS                          &trans  &kp F7  &kp F8  &kp F9  &kp F12
-&trans  &kp N4  &kp N5      &kp N6  &kp PLUS             &kp ASTERISK  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp N1  &kp N2      &kp N3  &kp EQUAL  &trans    &kp SLASH     &trans  &kp F1  &kp F2  &kp F3  &kp F10
-&trans  &kp N0  &kp PERIOD  &trans  &trans     &trans    &trans        &trans                          &trans
+&trans  &kp N7   &kp N8  &kp N9  &kp MINUS                          &trans  &kp F7  &kp F8  &kp F9  &kp F12
+&trans  &kp N4   &kp N5  &kp N6  &kp PLUS             &kp ASTERISK  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &kp N1   &kp N2  &kp N3  &kp EQUAL  &trans    &kp SLASH     &trans  &kp F1  &kp F2  &kp F3  &kp F10
+&trans  &kp DOT  &kp N0  &trans  &trans     &trans    &trans        &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
