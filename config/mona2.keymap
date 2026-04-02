@@ -87,7 +87,7 @@
 
         layer_1 {
             bindings = <
-&trans                &kp SINGLE_QUOTE  &kp AT_SIGN        &kp ASTERISK   &kp EQUAL                    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans
+&trans                &kp SINGLE_QUOTE  &kp AT_SIGN        &kp ASTERISK   &kp EQUAL                    &trans  &kp LBKT              &kp RIGHT_BRACKET      &trans         &trans
 &trans                &kp DOLLAR        &kp PERCENT        &kp AMPERSAND  &trans               &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans
 &mt LEFT_SHIFT MINUS  &kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH       &trans     &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
 &trans                &trans            &trans             &trans         &trans     &trans    &trans  &trans                                                              &trans
