@@ -53,7 +53,6 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
         cpi = <600>;
-        //automouse-layer = <5>;　//PMW3610 Driverのオートマウスレイヤー。Input Processorを使用する場合はコメントアウト。
         //swap-xy;
         invert-x; //COROPIT版ではコメントアウトを外す
         invert-y; //COROPIT版ではコメントアウトを外す
