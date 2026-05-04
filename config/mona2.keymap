@@ -118,10 +118,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp HOME        &kp UP_ARROW    &kp END          &trans                        &trans           &kp LS(LG(LEFT))    &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))    &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                &trans  &kp LA(TAB)      &kp LG(LEFT_ARROW)  &trans            &kp LG(RIGHT_ARROW)  &trans
-&trans  &kp PAGE_DOWN   &kp DEL         &kp PAGE_UP      &trans  &kp K_MUTE    &trans  &kp LA(LS(TAB))  &kp LC(LS(TAB))     &trans            &kp LC(TAB)          &trans
-&trans  &trans          &trans          &trans           &trans  &trans        &trans  &trans                                                                      &trans
+&trans  &kp HOME        &kp UP_ARROW    &kp END          &trans                        &trans              &kp LS(LG(LEFT))  &kp LS(LG(RIGHT_ARROW))  &trans               &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                &trans  &trans              &kp LA(LS(TAB))   &kp LA(TAB)              &trans               &trans
+&trans  &kp PAGE_DOWN   &kp DEL         &kp PAGE_UP      &trans  &kp K_MUTE    &trans  &kp LG(LEFT_ARROW)  &kp LC(LS(TAB))   &kp LC(TAB)              &kp LG(RIGHT_ARROW)  &trans
+&trans  &trans          &trans          &trans           &trans  &trans        &trans  &trans                                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
