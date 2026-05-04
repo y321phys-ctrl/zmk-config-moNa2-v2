@@ -46,8 +46,6 @@
     };
 
     behaviors {
-　　 　　CONFIG_LAYOUT_SHIFT_TARGET_JIS=y;  //日本語(JIS)レイアウト
-
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
