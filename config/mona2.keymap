@@ -90,10 +90,6 @@
 
         layer_1 {
             bindings = <
-                &kpls EQUAL    // 通常は = を出力するが、JISレイアウトでは _ (JISレイアウトでの = に対応)を出力する
-                &tog_ls        // レイアウトシフトのオン/オフを切り替える
-                &tog_ls_on     // レイアウトシフトをオンにする
-                &tog_ls_off    // レイアウトシフトをオフにする
 &trans                &kp SINGLE_QUOTE  &kp AT_SIGN        &kp ASTERISK   &kp EQUAL                    &trans  &kp LBKT              &kp RIGHT_BRACKET      &trans         &trans
 &trans                &kp DOLLAR        &kp PERCENT        &kp AMPERSAND  &trans               &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans
 &mt LEFT_SHIFT MINUS  &kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH       &trans     &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
