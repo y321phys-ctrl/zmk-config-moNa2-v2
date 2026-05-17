@@ -37,7 +37,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: '5'}
+  - {t: '&to_layer_0 LANG2', h: '5'}
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - BACKSPACE
@@ -137,8 +137,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Gui+LEFT
+  - Gui+UP ARROW
   - Sft+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -146,10 +146,10 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+Sft+TAB
-  - Alt+TAB
-  - {t: ▽, type: trans}
+  - Gui+Sft+S
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE DOWN
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
   - MUTE
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
+  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
+  - Alt+TAB
   - Ctl+TAB
-  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -227,8 +227,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - Ctl+C
